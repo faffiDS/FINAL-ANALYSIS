@@ -1,6 +1,6 @@
 # FINAL-ANALYSIS
 
-the folder is composed by 2 files , 1 jupyter notebook (1) -demo Influencers Kingcom- and 1 python script (2) -modules_for_demo-.  
+the folder is composed by 2 files (for just french space and for internazionalized space (i18n) , 1 jupyter notebook (1) -demo Influencers Kingcom- and 1 python script (2) -modules_for_demo-.  
 
 (1) is the main script for the final analysis , you can run it for any topic and have the final map
 
@@ -31,3 +31,19 @@ line 242 in modules_for_demo.py:
  q4 (0,3)  = likes per day    
  increase > smaller bunch of influencers   
  decrease > vice versa  
+ 
+ THE SAME IDEA FOR I18N+demo+Influencers+-+Kingcom.ipynb AND  	modules_for_demo_i18n.py  
+ 
+ THE LAST SCRIPT IS : 
+  FINAL-ANALYSIS/tool+that+takes+into+account+texts+and+photos+on+the+150+users++from+raw+data+to+final+product.ipynb   
+  
+  this script is a kind of prototype that takes care of texts and photos too. It contains further research about importance of texts or photos .  
+  It contains everything from the space building to the final map without modules  
+  NB 
+  cell 2 
+  en_dictionary = gensim.models.KeyedVectors.load_word2vec_format('/home/ubuntu/mynotebooks/GoogleNews-vectors-negative300.bin',binary=True) , you can download it here : https://github.com/mmihaltz/word2vec-GoogleNews-vectors  
+  
+  cell 4  
+  photo_list = glob.glob("/home/ubuntu/mynotebooks/dati_foto_dp/dati_foto_dp/*/") , the folder that contains Amazon Rekognition tags for photos , obviously replace this path with yours  
+  the ground truth (cell 29) is made by me to give veracity to the tool
+ 
