@@ -1,6 +1,6 @@
 # FINAL-ANALYSIS
 
-the folder is composed by 2 files (for just french space and for internazionalized space (i18n) , 1 jupyter notebook (1) -demo Influencers Kingcom- and 1 python script (2) -modules_for_demo-.  
+the folder is composed by 2 files each (for just french space and for internazionalized space (i18n)) , 1 jupyter notebook (1) -demo Influencers Kingcom- and 1 python script (2) -modules_for_demo-.  
 
 (1) is the main script for the final analysis , you can run it for any topic and have the final map
 
